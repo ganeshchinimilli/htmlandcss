@@ -1,0 +1,45 @@
+.vericaltext {
+    width: 10px;
+    word-wrap: break-word;
+    font-family: monospace;
+}
+.table-wrapper{
+    
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+body{
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    background: rgb(74, 148, 226);
+}
+
+.fl-table {
+    font-weight: normal;
+border-collapse: collapse;
+
+    }
+    .fl-table td {
+        border-right: 1px solid #ec0909;
+            
+        }
+    .fl-table thead b:nth-child(odd) {
+        color: #ffffff;
+        background: #080b0e;
+    }
+    .fl-table tr:nth-child(even) {
+        background: #f8f6fcfa;
+    }
+    
+    .fl-table tr:nth-child(odd) {
+        background: #e6a173;
+    }
+     .fl-table thead tr:nth-child(odd) {
+        
+        background: #065574c9;
+    }
+ 
+    .main{
+        background: #f8f6fcfa;
+    }
+    sec.dashed {border-style: dashed;}
